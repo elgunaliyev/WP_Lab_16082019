@@ -1,0 +1,75 @@
+html body {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+input[type="text"] {
+  width: 80%;
+}
+input[type="button"] {
+  width: 20%;
+}
+/* button {
+  width: 20%;
+} */
+#container1 {
+  border: 1px solid black;
+  height: 700px;
+  width: 25%;
+
+  background-color: brown;
+}
+#container2 {
+  border: 1px solid black;
+  height: 700px;
+  width: 25%;
+  background-color: blueviolet;
+}
+.msg-pg {
+  height: 95%;
+  width: 100;
+  margin: 5px;
+}
+.msg-pg ul {
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.msg-pg li {
+  padding: 5px 10px;
+  max-width: 80%;
+  text-decoration: none;
+  list-style: none;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+.msg-pg p {
+  white-space: wrap;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+.user1 {
+  background-color: aquamarine;
+  display: flex;
+  align-self: flex-end;
+}
+.user2 {
+  background-color: bisque;
+
+  display: flex;
+  align-self: flex-start;
+}
+/* .user2::after{
+    content: "";
+    clear: both;
+}
+.user1::after{
+    content: "";
+    clear: both;
+} */

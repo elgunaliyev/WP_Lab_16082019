@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Whtasapp</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="container" class="d-flex justify-content-around">
+      <div id="container1">
+        <div class="msg-header"></div>
+
+        <div class="msg-pg">
+          <ul id="pg-ul1" class="d-flex flex-column"></ul>
+        </div>
+        <div class="msg-ft d-flex  justify-content-start">
+          <input type="text" name="" id="text1" />
+          <input
+            type="button"
+            value="send"
+            id="sendbtn1"
+            onclick="btn1click(this)"
+          />
+        </div>
+      </div>
+
+      <div id="container2">
+        <div class="msg-header"></div>
+
+        <div class="msg-pg ">
+          <ul id="pg-ul2" class="d-flex flex-column"></ul>
+        </div>
+        <div class="msg-ft d-flex  justify-content-start ">
+          <input type="text" name="" id="text2" />
+          <input
+            type="button"
+            value="send"
+            id="sendbtn2"
+            onclick="btn2click(this)"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script src="js/custom.js"></script>
+  </body>
+</html>
